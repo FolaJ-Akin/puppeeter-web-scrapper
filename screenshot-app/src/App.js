@@ -59,7 +59,7 @@ function App() {
         />
         <button onClick={handleSumbit}>Submit</button>
         <a id="download" href="blank" download="">
-          <img id="imgD" src="" alt="image from server" />
+          <img id="imgD" src="" alt="fromserver" />
         </a>
       </div>
     </div>
