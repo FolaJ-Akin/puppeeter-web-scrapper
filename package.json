@@ -4,7 +4,9 @@
     "puppeteer": "^19.5.2"
   },
   "scripts": {
-    "start":"node index.js",
+    "start-server":"cd web-scrapper-server; node index.js",
+    "start-app":"cd screenshot-app; yarn start",
+    "build":"cd screenshot-app; yarn build",
     "format":"prettier --write index.js"
   },
   "type": "module"
