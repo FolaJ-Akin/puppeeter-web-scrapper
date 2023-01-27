@@ -24,7 +24,7 @@ function App() {
     console.log("data", data);
 
     axios
-      .post("http://localhost:5000/details", data, {
+      .post("https://screenshot-server-o1zt.onrender.com/details", data, {
         responseType: "arraybuffer",
       })
       .then((response) => {
