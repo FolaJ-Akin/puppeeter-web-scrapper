@@ -28,7 +28,7 @@ function App() {
         responseType: "arraybuffer",
       })
       .then((response) => {
-        const b64response = Buffer.from(response.data, "binary").toString(
+        const b64response = Buffer.from(response.data,"binary").toString(
           "base64"
         );
         let newscr = `data:image/${type};base64,` + b64response;
