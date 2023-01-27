@@ -1,13 +1,12 @@
 {
   "dependencies": {
-    "prettier": "^2.8.3",
-    "puppeteer": "^19.5.2"
+    "prettier": "^2.8.3"
   },
   "scripts": {
-    "start-server":"cd web-scrapper-server; node index.js",
-    "start-app":"cd screenshot-app; yarn start",
-    "build":"cd screenshot-app; yarn build",
-    "format":"prettier --write index.js"
+    "start-server": "cd web-scrapper-server; node index.js",
+    "start-app": "cd screenshot-app; yarn start",
+    "build": "cd screenshot-app; yarn build",
+    "format": "prettier --write index.js"
   },
   "type": "module"
 }
