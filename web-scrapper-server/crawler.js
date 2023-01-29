@@ -1,16 +1,3 @@
-// import puppeteer from "puppeteer";
-const puppeteer = require('puppeteer')
-const fs = require('fs/promises')
-
-async function crawlerFunc(url,filename,bool) {
-  const browser = await puppeteer.launch({ headless: true });
-  const page = await browser.newPage();
-  await page.goto(`${url}`);
-  await page.screenshot({path:`${filename}`, fullPage:bool})
-  await browser.close()
-  
-}
-
-;
-
-module.exports = {crawlerFunc}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ad36f3d1c280bee51833ab41003ffe0b24fb8b4396554e95933a9d9565b2caf
+size 415

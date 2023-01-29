@@ -1,18 +1,3 @@
-{
-  "name": "scrapper-server",
-  "devDependencies": {
-    "prettier": "^2.8.3"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20",
-    "puppeteer": "^19.6.1"
-  },
-  "scripts": {
-    "format": "prettier --write index.js",
-    "format:check": "prettier --check index.js",
-    "start": "node index.js"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fbc92de3115b967b8f91e0714c867bce23c34bbc8102e649c843a63e90a32c8
+size 377

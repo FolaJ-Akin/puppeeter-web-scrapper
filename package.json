@@ -1,12 +1,3 @@
-{
-  "dependencies": {
-    "prettier": "^2.8.3"
-  },
-  "scripts": {
-    "start-server": "cd web-scrapper-server; node index.js",
-    "start-app": "cd screenshot-app; yarn start",
-    "build": "cd screenshot-app; yarn build",
-    "format": "prettier --write index.js"
-  },
-  "type": "module"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e1f6b975f61d7c4e705faa9a1cc16affe9b3688e351b8105cbd4e596b6e1f03
+size 292
