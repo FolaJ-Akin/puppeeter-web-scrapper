@@ -1,0 +1,2 @@
+/home/2202-007-ifa/Developer/academy/training/PP/puppeeter-web-scrapper/web-scrapper-server/.cache filter=lfs diff=lfs merge=lfs -text
+web-scrapper-server/.cache/puppeteer/chrome/linux-1083080/chrome-linux/chrome filter=lfs diff=lfs merge=lfs -text
